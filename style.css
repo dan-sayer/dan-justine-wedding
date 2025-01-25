@@ -28,6 +28,7 @@ body.clicking {
 
 body {
     font-family: 'optima';
+    font-weight: lighter;
     line-height: 1.6;
     color: #333;
     background: #fdfdfd;
