@@ -1,15 +1,15 @@
 
 @font-face {
     font-family: Optima;
-    src: url(/fonts/optima.ttf);
+    src: url(./fonts/optima.ttf);
 }
 
 html {
-    cursor: url("Cursor/tomato-cursor.png") 16 16, auto!important;
+    cursor: url("./cursor/tomato-cursor.PNG") 16 16, auto!important;
 }
 
 body.clicking {
-    cursor: url("Cursor/tomato-smash.png") 32 32, auto;  
+    cursor: url("./cursor/tomato-smash.PNG") 32 32, auto;  
   }
 
   /* Stamp image styling */
