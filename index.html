@@ -28,7 +28,7 @@
             document.body.addEventListener("click", function (event) {
               // Create an image element for the stamp
               const stamp = document.createElement("img");
-              stamp.src = "Cursor/tomato-smash.png"; // Path to the stamp image
+              stamp.src = "./cursor/tomato-smash.png"; // Path to the stamp image
               stamp.alt = "Stamp";
               stamp.classList.add("stamp"); // Add a CSS class for styling
         
@@ -46,7 +46,7 @@
     <button onclick="pauseAudio()">Pause</button>
 </div>
 <audio id="myAudio">
-    <source src="/audio/pino-song.mp3" type="audio/mpeg">
+    <source src="./audio/pino-song.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>
 
@@ -71,7 +71,7 @@
 
         <div class="svg-container">
             <!-- Inline SVG Example -->
-            <img src="/assets/vector.svg">
+            <img src="./assets/vector.SVG">
             <div class="svg-text">
                 <a href="https://forms.gle/n7x8uRzi94NGWM1X9" target="_blank" rel="noopener noreferrer" class="star-link">
                     CLICK TO WIN
