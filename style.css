@@ -254,4 +254,16 @@ h2 {
       text-transform: uppercase;
       line-height: 25px;
     } 
+    
+    .custom-link {
+  color: #EB1B23; /* Removes underline */
+  text-decoration: underline; /* Makes the link inherit the text color */
+    }
+
+    .event img {
+  width: 200px;
+  /* padding: 0 5px 0 5px; */
+  max-height: 500px;
+  margin: 0 0 80px 0;
+    }
 }
